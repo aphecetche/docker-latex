@@ -1,5 +1,4 @@
-FROM ubuntu:15.10
-MAINTAINER Johannes Mitlmeier <dev.jojomi@yahoo.com>
+FROM ubuntu:latest
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get --yes update && \
